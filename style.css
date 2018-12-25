@@ -1,0 +1,64 @@
+
+      #map {
+        height: 300px;
+        width: 350px;
+        text-align: center;
+       }
+       #locations {
+        margin: 20px auto;
+        text-align: center;   
+        border-spacing: 15px;
+
+       }
+       body {
+           background: lightgray;
+       }
+       #formap, #forchart {
+           background: white;
+       }
+       #chartContainer {
+           width: 600px;
+           height: 300px;
+       }
+       h3 {
+           font-weight: normal;
+       }
+      #locations td {
+           padding: 25px;
+       }
+      
+       #usersdata {
+           margin: 20px auto;
+           background: white;
+           width: 1065px;
+           text-align: center;
+           border-collapse: collapse; 
+           overflow: scroll;
+       }
+       
+       #usersdata tr {
+           height: 50px;
+           border-bottom: 0.5px solid #c0b0b0;
+       }
+       #headof {
+           background: #e6d1d1;
+           
+       }
+       #usersdata tr td:nth-child(1) {
+           border-right: 0.5px solid #c0b0b0;
+           
+       }
+       .elements {
+           width: 15000px;
+       }
+  thead,
+tbody {
+  display: block;
+}
+
+tbody {
+  height: 450px;
+  overflow: auto;
+}
+     
+  
